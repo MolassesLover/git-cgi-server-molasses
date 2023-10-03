@@ -1,6 +1,6 @@
 module github.com/pasela/git-cgi-server
 
-go 1.13
+go 1.21	
 
 require (
 	github.com/abbot/go-http-auth v0.4.0
