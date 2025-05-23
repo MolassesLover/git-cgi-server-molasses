@@ -1,1 +1,4 @@
-{ pkgs ? import <nixpkgs> { } }: pkgs.callPackage ./misc/git-cgi-server-molasses.nix { }
+{
+  pkgs ? import <nixpkgs> { },
+}:
+pkgs.callPackage ./misc/nix/git-cgi-server-molasses.nix { }
